@@ -1,0 +1,39 @@
+//Load Box 1
+loadTestSpec(file:C:\Users\Hong\git\Morphy2\bin\morphy\examples\BoxTest1.class)
+playTestScript(DirectedWalkTest.scr)
+
+//Load Box 2
+loadTestSpec(file:C:\Users\Hong\git\Morphy2\bin\morphy\examples\BoxTest2.class)
+playTestScript(DirectedWalkTest.scr)
+
+//Load Circle 1
+loadTestSpec(file:C:\Users\Hong\git\Morphy2\bin\morphy\examples\CircleTest1.class)
+playTestScript(DirectedWalkTest.scr)
+
+//Load Circle 2
+loadTestSpec(file:C:\Users\Hong\git\Morphy2\bin\morphy\examples\CircleTest2.class)
+playTestScript(DirectedWalkTest.scr)
+
+//Load Line 1
+loadTestSpec(file:C:\Users\Hong\git\Morphy2\bin\morphy\examples\LineTest1.class)
+playTestScript(DirectedWalkTest.scr)
+
+//Load Line 2
+loadTestSpec(file:C:\Users\Hong\git\Morphy2\bin\morphy\examples\LineTest2.class)
+playTestScript(DirectedWalkTest.scr)
+
+//Load Sin 1
+loadTestSpec(file:C:\Users\Hong\git\Morphy2\bin\morphy\examples\SinTest1.class)
+playTestScript(DirectedWalkTest.scr)
+
+//Load Sin 2
+loadTestSpec(file:C:\Users\Hong\git\Morphy2\bin\morphy\examples\SinTest2.class)
+playTestScript(DirectedWalkTest.scr)
+
+//Load Triangle 1
+loadTestSpec(file:C:\Users\Hong\git\Morphy2\bin\morphy\examples\TriTest1.class)
+playTestScript(DirectedWalkTest.scr)
+
+//Load Triangle 2
+loadTestSpec(file:C:\Users\Hong\git\Morphy2\bin\morphy\examples\TriTest2.class)
+playTestScript(DirectedWalkTest.scr)
