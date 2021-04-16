@@ -351,7 +351,7 @@ public class BankChurnersMorphisms extends BankChurnersMLTest<BankChurnersValue,
 		for (int i=0; i<=4; i++) {
 			bc.discValue[i] = seed.input.discValue[i];
 		};
-		if (seed.input.discValue[feature] < BankChurnersFeatures.size[feature]-1) {
+		if (seed.input.discValue[feature] < BankChurnersFeatures.size[feature]-2) {
 			bc.discValue[feature] ++;
 		}
 		mutant.input = bc;

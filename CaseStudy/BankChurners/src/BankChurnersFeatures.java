@@ -3,7 +3,7 @@ package BankChurners;
 public final class BankChurnersFeatures {
 //	public final static int Attrition_Flag = 0; /* {"Existing Customer":0,"Attrited Customer":1} */
 	
-	//The indexes of discrete non-numerical features:
+	//The indexes of finite discrete features:
 	public final static int Gender =0; /*{'F':0, 'M':1} */
 	public final static int Education_Level = 1; /* {'Graduate':0, 'High School':1, 'Uneducated':2, 'College':3, 'Unknown':4, 'Post-Graduate':5, 'Doctorate':6} */
 	public final static int Marital_Status =2; /* {'Married':0, 'Single':1, 'Divorced':2, 'Unknown':3} */
@@ -13,7 +13,7 @@ public final class BankChurnersFeatures {
 	//The domain sizes of finite discrete features
 	public final static int[] size = {2, 7, 4, 6, 4}; 
 	
-	//The indexes of discrete numerical features (integers): 
+	//The indexes of infinite discrete features (integers): 
 	public final static int Customer_Age =0; /* min: 26, max:73, range:[20,80], step: 3 */
 	public final static int Dependent_count =1;  /* min:0, max: 5, range:[0,10], step: 1 */
 	public final static int Months_on_book =2; /*min:13, max:56, range:[0,100], step:5 */
