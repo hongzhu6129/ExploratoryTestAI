@@ -1,0 +1,4 @@
+clean()
+makeSeed([RandomValue200])
+randomTargetExplore(1000,mid)
+analyse([saveStatistics])

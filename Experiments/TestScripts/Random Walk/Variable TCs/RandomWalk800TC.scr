@@ -1,0 +1,4 @@
+clean()
+makeSeed([RandomValue800])
+randomWalkExplore([downward, upward, rightward, mid, leftward];20;800)
+analyse([saveStatistics])
