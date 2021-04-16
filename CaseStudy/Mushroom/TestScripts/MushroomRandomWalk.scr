@@ -1,0 +1,86 @@
+//Pre-condition: 	The model is started. 
+//Post-condition: 	(1) The results are save to the ExpDataFile.csv file. 
+// 					(2) The model remains running. 
+//Function:  Execute the random walk exploration strategy with number of runs 
+//			 being 100, 200, ..., 1000, each for 10 times. The number of invocations 
+//			 of the model and number of Pareto front pairs are recorded. 
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(MushroomTrainingData)
+	randomWalkExplore([gill_attachment_Up, gill_attachment_Down, stalk_color_below_ring_Down, stalk_color_above_ring_Down, spore_print_color_Up, spore_print_color_Down, stalk_color_below_ring_Up, gill_spacing_Down, stalk_surface_above_ring_Up, stalk_surface_below_ring_Up, stalk_surface_above_ring_Down, stalk_surface_below_ring_Down, stalk_color_above_ring_Up, cap_surface_Down, odor_Up, cap_surface_Up, gill_color_Down, bruises_Up, odor_Down, cap_shape_Up, cap_color_Down, gill_size_Up, gill_size_Down, stalk_root_Up, bruises_Down, stalk_shape_Up, stalk_shape_Down, cap_shape_Down, gill_spacing_Up, veil_type_Up, gill_color_Up, stalk_root_Down, cap_color_Up, veil_type_Down, veil_color_Up, population_Down, mid, ring_number_Up, habitat_Down, ring_number_Down, population_Up, habitat_Up, veil_color_Down, ring_type_Up, ring_type_Down];20;100)
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(ExpDataFile.csv;Avg of 100)
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(MushroomTrainingData)
+	randomWalkExplore([gill_attachment_Up, gill_attachment_Down, stalk_color_below_ring_Down, stalk_color_above_ring_Down, spore_print_color_Up, spore_print_color_Down, stalk_color_below_ring_Up, gill_spacing_Down, stalk_surface_above_ring_Up, stalk_surface_below_ring_Up, stalk_surface_above_ring_Down, stalk_surface_below_ring_Down, stalk_color_above_ring_Up, cap_surface_Down, odor_Up, cap_surface_Up, gill_color_Down, bruises_Up, odor_Down, cap_shape_Up, cap_color_Down, gill_size_Up, gill_size_Down, stalk_root_Up, bruises_Down, stalk_shape_Up, stalk_shape_Down, cap_shape_Down, gill_spacing_Up, veil_type_Up, gill_color_Up, stalk_root_Down, cap_color_Up, veil_type_Down, veil_color_Up, population_Down, mid, ring_number_Up, habitat_Down, ring_number_Down, population_Up, habitat_Up, veil_color_Down, ring_type_Up, ring_type_Down];20;200)
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(ExpDataFile.csv;Avg of 200)
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(MushroomTrainingData)
+	randomWalkExplore([gill_attachment_Up, gill_attachment_Down, stalk_color_below_ring_Down, stalk_color_above_ring_Down, spore_print_color_Up, spore_print_color_Down, stalk_color_below_ring_Up, gill_spacing_Down, stalk_surface_above_ring_Up, stalk_surface_below_ring_Up, stalk_surface_above_ring_Down, stalk_surface_below_ring_Down, stalk_color_above_ring_Up, cap_surface_Down, odor_Up, cap_surface_Up, gill_color_Down, bruises_Up, odor_Down, cap_shape_Up, cap_color_Down, gill_size_Up, gill_size_Down, stalk_root_Up, bruises_Down, stalk_shape_Up, stalk_shape_Down, cap_shape_Down, gill_spacing_Up, veil_type_Up, gill_color_Up, stalk_root_Down, cap_color_Up, veil_type_Down, veil_color_Up, population_Down, mid, ring_number_Up, habitat_Down, ring_number_Down, population_Up, habitat_Up, veil_color_Down, ring_type_Up, ring_type_Down];20;300)
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(ExpDataFile.csv;Avg of 300)
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(MushroomTrainingData)
+	randomWalkExplore([gill_attachment_Up, gill_attachment_Down, stalk_color_below_ring_Down, stalk_color_above_ring_Down, spore_print_color_Up, spore_print_color_Down, stalk_color_below_ring_Up, gill_spacing_Down, stalk_surface_above_ring_Up, stalk_surface_below_ring_Up, stalk_surface_above_ring_Down, stalk_surface_below_ring_Down, stalk_color_above_ring_Up, cap_surface_Down, odor_Up, cap_surface_Up, gill_color_Down, bruises_Up, odor_Down, cap_shape_Up, cap_color_Down, gill_size_Up, gill_size_Down, stalk_root_Up, bruises_Down, stalk_shape_Up, stalk_shape_Down, cap_shape_Down, gill_spacing_Up, veil_type_Up, gill_color_Up, stalk_root_Down, cap_color_Up, veil_type_Down, veil_color_Up, population_Down, mid, ring_number_Up, habitat_Down, ring_number_Down, population_Up, habitat_Up, veil_color_Down, ring_type_Up, ring_type_Down];20;400)
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(ExpDataFile.csv;Avg of 400)
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(MushroomTrainingData)
+	randomWalkExplore([gill_attachment_Up, gill_attachment_Down, stalk_color_below_ring_Down, stalk_color_above_ring_Down, spore_print_color_Up, spore_print_color_Down, stalk_color_below_ring_Up, gill_spacing_Down, stalk_surface_above_ring_Up, stalk_surface_below_ring_Up, stalk_surface_above_ring_Down, stalk_surface_below_ring_Down, stalk_color_above_ring_Up, cap_surface_Down, odor_Up, cap_surface_Up, gill_color_Down, bruises_Up, odor_Down, cap_shape_Up, cap_color_Down, gill_size_Up, gill_size_Down, stalk_root_Up, bruises_Down, stalk_shape_Up, stalk_shape_Down, cap_shape_Down, gill_spacing_Up, veil_type_Up, gill_color_Up, stalk_root_Down, cap_color_Up, veil_type_Down, veil_color_Up, population_Down, mid, ring_number_Up, habitat_Down, ring_number_Down, population_Up, habitat_Up, veil_color_Down, ring_type_Up, ring_type_Down];20;500)
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(ExpDataFile.csv;Avg of 500)
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(MushroomTrainingData)
+	randomWalkExplore([gill_attachment_Up, gill_attachment_Down, stalk_color_below_ring_Down, stalk_color_above_ring_Down, spore_print_color_Up, spore_print_color_Down, stalk_color_below_ring_Up, gill_spacing_Down, stalk_surface_above_ring_Up, stalk_surface_below_ring_Up, stalk_surface_above_ring_Down, stalk_surface_below_ring_Down, stalk_color_above_ring_Up, cap_surface_Down, odor_Up, cap_surface_Up, gill_color_Down, bruises_Up, odor_Down, cap_shape_Up, cap_color_Down, gill_size_Up, gill_size_Down, stalk_root_Up, bruises_Down, stalk_shape_Up, stalk_shape_Down, cap_shape_Down, gill_spacing_Up, veil_type_Up, gill_color_Up, stalk_root_Down, cap_color_Up, veil_type_Down, veil_color_Up, population_Down, mid, ring_number_Up, habitat_Down, ring_number_Down, population_Up, habitat_Up, veil_color_Down, ring_type_Up, ring_type_Down];20;600)
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(ExpDataFile.csv;Avg of 600)
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(MushroomTrainingData)
+	randomWalkExplore([gill_attachment_Up, gill_attachment_Down, stalk_color_below_ring_Down, stalk_color_above_ring_Down, spore_print_color_Up, spore_print_color_Down, stalk_color_below_ring_Up, gill_spacing_Down, stalk_surface_above_ring_Up, stalk_surface_below_ring_Up, stalk_surface_above_ring_Down, stalk_surface_below_ring_Down, stalk_color_above_ring_Up, cap_surface_Down, odor_Up, cap_surface_Up, gill_color_Down, bruises_Up, odor_Down, cap_shape_Up, cap_color_Down, gill_size_Up, gill_size_Down, stalk_root_Up, bruises_Down, stalk_shape_Up, stalk_shape_Down, cap_shape_Down, gill_spacing_Up, veil_type_Up, gill_color_Up, stalk_root_Down, cap_color_Up, veil_type_Down, veil_color_Up, population_Down, mid, ring_number_Up, habitat_Down, ring_number_Down, population_Up, habitat_Up, veil_color_Down, ring_type_Up, ring_type_Down];20;700)
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(ExpDataFile.csv;Avg of 700)
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(MushroomTrainingData)
+	randomWalkExplore([gill_attachment_Up, gill_attachment_Down, stalk_color_below_ring_Down, stalk_color_above_ring_Down, spore_print_color_Up, spore_print_color_Down, stalk_color_below_ring_Up, gill_spacing_Down, stalk_surface_above_ring_Up, stalk_surface_below_ring_Up, stalk_surface_above_ring_Down, stalk_surface_below_ring_Down, stalk_color_above_ring_Up, cap_surface_Down, odor_Up, cap_surface_Up, gill_color_Down, bruises_Up, odor_Down, cap_shape_Up, cap_color_Down, gill_size_Up, gill_size_Down, stalk_root_Up, bruises_Down, stalk_shape_Up, stalk_shape_Down, cap_shape_Down, gill_spacing_Up, veil_type_Up, gill_color_Up, stalk_root_Down, cap_color_Up, veil_type_Down, veil_color_Up, population_Down, mid, ring_number_Up, habitat_Down, ring_number_Down, population_Up, habitat_Up, veil_color_Down, ring_type_Up, ring_type_Down];20;800)
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(ExpDataFile.csv;Avg of 800)
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(MushroomTrainingData)
+	randomWalkExplore([gill_attachment_Up, gill_attachment_Down, stalk_color_below_ring_Down, stalk_color_above_ring_Down, spore_print_color_Up, spore_print_color_Down, stalk_color_below_ring_Up, gill_spacing_Down, stalk_surface_above_ring_Up, stalk_surface_below_ring_Up, stalk_surface_above_ring_Down, stalk_surface_below_ring_Down, stalk_color_above_ring_Up, cap_surface_Down, odor_Up, cap_surface_Up, gill_color_Down, bruises_Up, odor_Down, cap_shape_Up, cap_color_Down, gill_size_Up, gill_size_Down, stalk_root_Up, bruises_Down, stalk_shape_Up, stalk_shape_Down, cap_shape_Down, gill_spacing_Up, veil_type_Up, gill_color_Up, stalk_root_Down, cap_color_Up, veil_type_Down, veil_color_Up, population_Down, mid, ring_number_Up, habitat_Down, ring_number_Down, population_Up, habitat_Up, veil_color_Down, ring_type_Up, ring_type_Down];20;900)
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(ExpDataFile.csv;Avg of 900)
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(MushroomTrainingData)
+	randomWalkExplore([gill_attachment_Up, gill_attachment_Down, stalk_color_below_ring_Down, stalk_color_above_ring_Down, spore_print_color_Up, spore_print_color_Down, stalk_color_below_ring_Up, gill_spacing_Down, stalk_surface_above_ring_Up, stalk_surface_below_ring_Up, stalk_surface_above_ring_Down, stalk_surface_below_ring_Down, stalk_color_above_ring_Up, cap_surface_Down, odor_Up, cap_surface_Up, gill_color_Down, bruises_Up, odor_Down, cap_shape_Up, cap_color_Down, gill_size_Up, gill_size_Down, stalk_root_Up, bruises_Down, stalk_shape_Up, stalk_shape_Down, cap_shape_Down, gill_spacing_Up, veil_type_Up, gill_color_Up, stalk_root_Down, cap_color_Up, veil_type_Down, veil_color_Up, population_Down, mid, ring_number_Up, habitat_Down, ring_number_Down, population_Up, habitat_Up, veil_color_Down, ring_type_Up, ring_type_Down];20;1000)
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(ExpDataFile.csv;Avg of 1000)

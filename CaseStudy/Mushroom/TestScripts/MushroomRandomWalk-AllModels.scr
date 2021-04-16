@@ -1,0 +1,96 @@
+clean()
+
+saveMessage(ExpDataFile.csv;Random Walk -- DT)
+analyse([start_DT_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- DT2)
+analyse([start_DT2_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- HV)
+analyse([start_HV_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- HV2)
+analyse([start_HV2_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- KNN)
+analyse([start_KNN_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- KNN2)
+analyse([start_KNN2_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- LR)
+analyse([start_LR_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- LR2)
+analyse([start_LR2_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- NB)
+analyse([start_NB_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- NB2)
+analyse([start_NB2_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+//saveMessage(ExpDataFile.csv;Random Walk -- RF)
+//analyse([start_RF_Invoker])
+//playTestScript(MushroomRandomWalk.scr)
+//analyse([stop_Invoker])
+//
+//saveMessage(ExpDataFile.csv;Random Walk -- RF2)
+//analyse([start_RF2_Invoker])
+//playTestScript(MushroomRandomWalk.scr)
+//analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- Stack)
+analyse([start_Stack_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+//saveMessage(ExpDataFile.csv;Random Walk -- Stack2)
+//analyse([start_Stack2_Invoker])
+//playTestScript(MushroomRandomWalk.scr)
+//analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- Stack3)
+analyse([start_Stack3_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- SV)
+analyse([start_SV_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- SV2)
+analyse([start_SV2_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- SVM)
+analyse([start_SVM_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(ExpDataFile.csv;Random Walk -- SVM2)
+analyse([start_SVM2_Invoker])
+playTestScript(MushroomRandomWalk.scr)
+analyse([stop_Invoker])
