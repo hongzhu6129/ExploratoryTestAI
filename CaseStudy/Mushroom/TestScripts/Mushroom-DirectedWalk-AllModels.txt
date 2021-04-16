@@ -1,0 +1,81 @@
+clean()
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,DT, DT, DT, DT)
+analyse([start_DT_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,DT2,DT2,DT2,DT2)
+analyse([start_DT2_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,HV,HV,HV,HV)
+analyse([start_HV_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,HV2,HV2,HV2,HV2)
+analyse([start_HV2_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,KNN,KNN,KNN,KNN)
+analyse([start_KNN_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,KNN2,KNN2,KNN2,KNN2)
+analyse([start_KNN2_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,LR,LR,LR,LR)
+analyse([start_LR_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,LR2,LR2,LR2,LR2)
+analyse([start_LR2_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,NB,NB,NB,NB)
+analyse([start_NB_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,NB2,NB2,NB2,NB2)
+analyse([start_NB2_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,Stack1, Stack1,Stack1,Stack1)
+analyse([start_Stack_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,Stack3,Stack3,Stack3,Stack3)
+analyse([start_Stack3_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,SV,SV,SV,SV)
+analyse([start_SV_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,SV2,SV2,SV2,SV2)
+analyse([start_SV2_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,SVM,SVM,SVM,SVM)
+analyse([start_SVM_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Directed Walk,SVM2,SVM2,SVM2,SVM2)
+analyse([start_SVM2_Invoker])
+playTestScript(Mushroom-DirectedWalk.scr)
+analyse([stop_Invoker])
