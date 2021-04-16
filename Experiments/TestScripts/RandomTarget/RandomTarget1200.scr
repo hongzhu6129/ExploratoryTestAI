@@ -1,4 +1,0 @@
-clean()
-makeSeed([RandomValue200])
-randomTargetExplore(1200,mid)
-analyse([saveStatistics])

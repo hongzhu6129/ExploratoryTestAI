@@ -1,4 +1,0 @@
-clean()
-makeSeed([RandomValue400])
-randomWalkExplore([downward, upward, rightward, mid, leftward];20;800)
-analyse([saveStatistics])
