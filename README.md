@@ -58,6 +58,16 @@ For each of these folders, it contains the following subdirectories: (where XXX 
 
 -- TestScript The test scripts for conduct various experiments in the case study using Morpthy. 
 
+Execution Time Data -- The folder contains the data collected in the experiments on execution times of the test strategies. The test scripts for the experiements are also given in this folder, but in the sub-folder of Test Scripts. 
+
+-- Coded Classifiers : Data of the execution time lengths and test scripts for testing coded classifiers. 
+
+-- Red Wine Quality: Data of the execution time lengths and the test scripts for testing the machine learning models of red wine quality. 
+
+-- Muchroom: Data of the execution time lengths and the test scripts for testing the machine learning models of mushroom editbility. 
+
+-- Bank Churners: Data of the execution time lengths and the test scripts for testing the machine learning models of bank churner prediction. 
+
 2. Instructions
 
 2.1. Installation and start of Morphy
