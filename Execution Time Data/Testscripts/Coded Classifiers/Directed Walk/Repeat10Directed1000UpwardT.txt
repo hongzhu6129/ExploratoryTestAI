@@ -1,0 +1,4 @@
+//Directed walk upward 1000 (repeat 10 times)
+repeat(10)
+	playTestScript(DirectedWalk1000UpwardT.txt)
+endRepeat()

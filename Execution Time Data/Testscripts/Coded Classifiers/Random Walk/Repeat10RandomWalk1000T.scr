@@ -1,0 +1,4 @@
+//Random walk 1000 (repeat 10 times)
+repeat(10)
+	playTestScript(RandomWalk1000T.scr)
+endRepeat()

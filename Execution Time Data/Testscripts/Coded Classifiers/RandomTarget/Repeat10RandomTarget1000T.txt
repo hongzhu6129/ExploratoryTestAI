@@ -1,0 +1,4 @@
+//Aimed walk 1000 (repeat 10 times)
+repeat(10)
+	playTestScript(RandomTarget1000T.txt)
+endRepeat()

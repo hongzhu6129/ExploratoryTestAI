@@ -1,0 +1,16 @@
+//Execute Random Target Strategy 10 time with various number of walks
+//Pre-condition: 	The model is started. 
+//Post-condition: 	(1) The results are save to the ExpDataFile.csv file. 
+// 		(2) The model remains running. 
+//Function:  Execute the random target exploration strategy with1000 runs for 10 times. 
+//	The execution time is recorded together with other data. 
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(TrainingData.tcs)
+	analyse([getTime])
+	randomTargetExplore(1000,mid)
+	analyse([getDuration])
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(RedWine-ExpDataFile.csv;Avg)

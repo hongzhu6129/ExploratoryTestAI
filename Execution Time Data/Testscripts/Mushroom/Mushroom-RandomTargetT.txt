@@ -1,0 +1,16 @@
+//Execute Random Target Strategy for 10 times each with 1000 walks
+//Pre-condition: 	The model is started. 
+//Post-condition: 	(1) The results are save to the Mushroom-ExpDataFile.csv file. 
+// 		(2) The model remains running. 
+//Function:  Execute the random target exploration strategy with 1000 runs for 10 times. 
+//	The execution time together with other data are recorded.
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(MushroomTrainingData)
+	analyse([getTime])
+	randomTargetExplore(1000,mid)
+	analyse([getDuration])
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(Mushroom-ExpDataFile.csv;Avg)

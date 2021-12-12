@@ -1,0 +1,15 @@
+//Pre-condition: 	The model is started. 
+//Post-condition: 	(1) The results are save to the ExpDataFile.csv file. 
+// 		(2) The model remains running. 
+//Function:  Execute the random walk exploration strategy with1000 walks for 10 times.  
+//	 The exuction time is recorded tother with other data. 
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(TrainingData.tcs)
+	analyse([getTime])
+	randomWalkExplore([ALL];20;1000)
+	analyse([getDuration])
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(RedWine-ExpDataFile.csv;Avg)

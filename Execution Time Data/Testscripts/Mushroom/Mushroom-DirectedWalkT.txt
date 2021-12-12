@@ -1,0 +1,16 @@
+//Pre-condition: 	The model is started. 
+//Post-condition: 	(1) The results are save to the ExpDataFile.csv file. 
+// 		(2) The model remains running. 
+//Function:  Execute the directed walk exploration strategy on all directions with 1000 runs for 10 times. 
+//	The execution time together with other data are recorded. 
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(MushroomTrainingData)
+	makeSeed([Select1000RandomTestCases])
+	analyse([getTime])
+	directedWalkExplore([ring_type_Down, population_Up, spore_print_color_Down, stalk_color_below_ring_Up, stalk_color_below_ring_Down, spore_print_color_Up, gill_color_Down, gill_color_Up, stalk_shape_Up, gill_size_Up, stalk_root_Up, veil_type_Up, ring_number_Up, ring_number_Down, bruises_Up, odor_Up, gill_size_Down, stalk_root_Down, gill_spacing_Up, veil_type_Down, veil_color_Up, veil_color_Down, ring_type_Up, cap_surface_Up, cap_surface_Down, odor_Down, cap_shape_Up, cap_color_Down, cap_color_Up, cap_shape_Down, bruises_Down, stalk_shape_Down, gill_spacing_Down, stalk_surface_above_ring_Down, stalk_surface_below_ring_Up, stalk_surface_below_ring_Down, stalk_color_above_ring_Up, stalk_surface_above_ring_Up, gill_attachment_Up, gill_attachment_Down, stalk_color_above_ring_Down, habitat_Down, habitat_Up, mid, population_Down])
+	analyse([getDuration])
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(Mushroom-ExpDataFile.csv;Avg)

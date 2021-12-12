@@ -1,0 +1,49 @@
+//Load Box 1
+loadTestSpec(file:C:\Morphy\Experiments\BoxTest1.class)
+analyse([saveMessageHead])
+playTestScript(Repeat10RandomTarget1000T.txt)
+
+//Load Box 2
+loadTestSpec(file:C:\Morphy\Experiments\BoxTest2.class)
+analyse([saveMessageHead])
+playTestScript(Repeat10RandomTarget1000T.txt)
+
+//Load Circle 1
+loadTestSpec(file:C:\Morphy\Experiments\CircleTest1.class)
+analyse([saveMessageHead])
+playTestScript(Repeat10RandomTarget1000T.txt)
+
+//Load Circle 2
+loadTestSpec(file:C:\Morphy\Experiments\CircleTest2.class)
+analyse([saveMessageHead])
+playTestScript(Repeat10RandomTarget1000T.txt)
+
+//Load Line 1
+loadTestSpec(file:C:\Morphy\Experiments\LineTest1.class)
+analyse([saveMessageHead])
+playTestScript(Repeat10RandomTarget1000T.txt)
+
+//Load Line 2
+loadTestSpec(file:C:\Morphy\Experiments\LineTest2.class)
+analyse([saveMessageHead])
+playTestScript(Repeat10RandomTarget1000T.txt)
+
+//Load Sin 1
+loadTestSpec(file:C:\Morphy\Experiments\SinTest1.class)
+analyse([saveMessageHead])
+playTestScript(Repeat10RandomTarget1000T.txt)
+
+//Load Sin 2
+loadTestSpec(file:C:\Morphy\Experiments\SinTest2.class)
+analyse([saveMessageHead])
+playTestScript(Repeat10RandomTarget1000T.txt)
+
+//Load Triangle 1
+loadTestSpec(file:C:\Morphy\Experiments\TriTest1.class)
+analyse([saveMessageHead])
+playTestScript(Repeat10RandomTarget1000T.txt)
+
+//Load Triangle 2
+loadTestSpec(file:C:\Morphy\Experiments\TriTest2.class)
+analyse([saveMessageHead])
+playTestScript(Repeat10RandomTarget1000T.txt)

@@ -1,0 +1,17 @@
+
+//Pre-condition: 	The model is started. 
+//Post-condition: 	(1) The results are save to the RedWine-ExpDataFile.csv file. 
+// 		(2) The model remains running. 
+//Function:  Execute the directed walk exploration strategy with 1000 runs for 10 times. 
+//	The execution time and other data  are recorded. 
+
+repeat(10)
+	makeSeed([ResetTestSuite])
+	loadTestResults(RedWineTrainingData.tcs)
+	makeSeed([Select1000RandomTestCases])
+	analyse([getTime])
+	directedWalkExplore([volatileAcidityUp, volatileAcidityDown, residualSugarDown, freeSulfurDioxideUp, freeSulfurDioxideDown, totalSulfurDioxideUp, totalSulfurDioxideDown, fixedAcidityUp, fixedAcidityDown, citricAcidUp, citricAcidDown, residualSugarUp, chloridesUp, chloridesDown, densityUp, densityDown, pHUp, pHDown, sulphateslUp, sulphateslDown, alcoholUp, alcoholDown, mid])
+	analyse([getDuration])
+	analyse([saveStatistics])
+endRepeat()
+saveMessage(RedWine-ExpDataFile.csv;Avg)

@@ -1,0 +1,42 @@
+clean()
+
+saveMessage(Mushroom-ExpDataFile.csv;Random Target,#Runs,#TC,#Orig TC,#Mutants,Duration)
+saveMessage(Mushroom-ExpDataFile.csv; DT)
+analyse([start_DT_Invoker])
+playTestScript(Mushroom-RandomTargetT.txt)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv; HV)
+analyse([start_HV_Invoker])
+playTestScript(Mushroom-RandomTargetT.txt)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv; KNN)
+analyse([start_KNN_Invoker])
+playTestScript(Mushroom-RandomTargetT.txt)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv; LR)
+analyse([start_LR_Invoker])
+playTestScript(Mushroom-RandomTargetT.txt)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv; NB)
+analyse([start_NB_Invoker])
+playTestScript(Mushroom-RandomTargetT.txt)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;Stack)
+analyse([start_Stack_Invoker])
+playTestScript(Mushroom-RandomTargetT.txt)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;SV)
+analyse([start_SV_Invoker])
+playTestScript(Mushroom-RandomTargetT.txt)
+analyse([stop_Invoker])
+
+saveMessage(Mushroom-ExpDataFile.csv;SVM)
+analyse([start_SVM_Invoker])
+playTestScript(Mushroom-RandomTargetT.txt)
+analyse([stop_Invoker])
